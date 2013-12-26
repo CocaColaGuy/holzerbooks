@@ -48,7 +48,7 @@ return array(
 		),
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+			'connectionString' => 'mysql:host=localhost;dbname=books',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
@@ -80,6 +80,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'eroten@gmail.com',
 	),
 );
